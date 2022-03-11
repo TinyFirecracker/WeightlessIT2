@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeightlessIT2", "WeightlessIT2\WeightlessIT2.csproj", "{84B891DB-14B8-4437-A753-CCBAA6D1916F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{84B891DB-14B8-4437-A753-CCBAA6D1916F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84B891DB-14B8-4437-A753-CCBAA6D1916F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84B891DB-14B8-4437-A753-CCBAA6D1916F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84B891DB-14B8-4437-A753-CCBAA6D1916F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9B7B3508-7E36-40AA-B925-409C5D46DE14}
+	EndGlobalSection
+EndGlobal
