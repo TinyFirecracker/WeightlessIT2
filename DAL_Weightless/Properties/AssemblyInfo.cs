@@ -4,11 +4,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("WeightlessIT2")]
+[assembly: AssemblyTitle("DAL_Weightless")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("WeightlessIT2")]
+[assembly: AssemblyProduct("DAL_Weightless")]
 [assembly: AssemblyCopyright("Copyright ©  2022")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -19,7 +19,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("84b891db-14b8-4437-a753-ccbaa6d1916f")]
+[assembly: Guid("391cd751-2297-41e2-b891-d41671a2ac7f")]
 
 // Version information for an assembly consists of the following four values:
 //
