@@ -46,16 +46,75 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Forms\Breakfastlog.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Forms\Breakfastlog.Designer.cs">
+      <DependentUpon>Breakfastlog.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\Dinnerlog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Dinnerlog.Designer.cs">
+      <DependentUpon>Dinnerlog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Log.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Log.Designer.cs">
+      <DependentUpon>Log.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Logweight.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Logweight.Designer.cs">
+      <DependentUpon>Logweight.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Lunchlog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Lunchlog.Designer.cs">
+      <DependentUpon>Lunchlog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\Meal.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Forms\Snacklog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Snacklog.Designer.cs">
+      <DependentUpon>Snacklog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\Weight.cs" />
+    <Compile Include="Forms\WeightTrends.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\WeightTrends.Designer.cs">
+      <DependentUpon>WeightTrends.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Forms\Breakfastlog.resx">
+      <DependentUpon>Breakfastlog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Dinnerlog.resx">
+      <DependentUpon>Dinnerlog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Log.resx">
+      <DependentUpon>Log.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Logweight.resx">
+      <DependentUpon>Logweight.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Lunchlog.resx">
+      <DependentUpon>Lunchlog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -66,6 +125,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Forms\Snacklog.resx">
+      <DependentUpon>Snacklog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\WeightTrends.resx">
+      <DependentUpon>WeightTrends.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
